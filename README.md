@@ -5,7 +5,7 @@ We run the simplest test to find **selene** by _google_.
 
 Let's start!
 
-## Acknowlendgemnts
+## Acknowlendgments
 
 [Яков Крамаренко](https://github.com/yashaka)
 
@@ -13,15 +13,27 @@ Let's start!
 
 Run [the test for Google](google_search_selene.py)
 
-### What is tested
+## What is tested
 
 We'll test an auth form on [site](http://the-internet.herokuapp.com/login).
+Steps:
 
-### The test cases are
+1. Explore the form with Developer Tools (press F12). Make the proof of concept.
+2. Create a new project and a file of tests.
+   
+   **Notice**: The project's name has the short description of the project, e.g. heroku-app-tests.
 
-- login and password are correct;
-- login is correct and password is incorrect;
-- both login and password are incorrect.
+   **Notice**: The file's name is beginning at **test** and has the description of the test object,
+   e.g. *test_auth_form*. This file will have some tests of the form (see chapter below).
+3. Create the positive and negative tests.
+
+   The test cases are
+
+   - login and password are correct;
+   - login is correct and password is incorrect;
+   - both login and password are incorrect.
+
+4. Run the tests.
 
 ## References
 
