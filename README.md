@@ -5,7 +5,7 @@ We run the simplest test to find **selene** by _google_.
 
 Let's start!
 
-## Acknowlendgments
+## Acknowledgments
 
 [Яков Крамаренко](https://github.com/yashaka)
 
@@ -20,11 +20,12 @@ Steps:
 
 1. Explore the form with Developer Tools (press F12). Make the proof of concept.
 2. Create a new project and a file of tests.
-   
+
    **Notice**: The project's name has the short description of the project, e.g. heroku-app-tests.
 
    **Notice**: The file's name is beginning at **test** and has the description of the test object,
-   e.g. *test_auth_form*. This file will have some tests of the form (see chapter below).
+   e.g. _test_auth_form_. This file will have some tests of the form (see chapter below).
+
 3. Create the positive and negative tests.
 
    The test cases are
